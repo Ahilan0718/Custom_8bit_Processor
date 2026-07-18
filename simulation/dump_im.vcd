@@ -1,0 +1,49 @@
+$date
+	Fri Jun 19 15:47:17 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module IM_test $end
+$var wire 8 ! instruction [7:0] $end
+$var reg 8 " address [7:0] $end
+$scope module uut $end
+$var wire 8 # address [7:0] $end
+$var reg 8 $ instruction [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b101 $
+b0 #
+b0 "
+b101 !
+$end
+#10
+b100011 !
+b100011 $
+b1 "
+b1 #
+#20
+b1000001 !
+b1000001 $
+b10 "
+b10 #
+#30
+b10000000 !
+b10000000 $
+b11 "
+b11 #
+#40
+b1100000 !
+b1100000 $
+b100 "
+b100 #
+#50
